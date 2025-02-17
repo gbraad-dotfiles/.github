@@ -12,7 +12,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
   - `devenv`  
     deals with [development environments](https://github.com/gbraad-devenv/)
   - `machine`  
-    create VMs from bootc images for devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others
+    create VMs using bootc image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others
   - `proxy`  
     sets environment to use a proxy to access services
   - `davfs`  
