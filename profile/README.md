@@ -32,7 +32,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
 ## Containers and Virtual Machines
 
   * Open in [GitHub Codespaces](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=60443888&skip_quickstart=true)
-  * `dev dotfed env`, `dev dotfed sys` for Fedora 41
-  * `dev dotdeb env`, `dev dotdeb sys` for Debian Bookworm
+  * `devenv dotfed env`, `dev dotfed [sys|shell]` for Fedora 41
+  * `devenv dotdeb env`, `dev dotdeb [sys|shell]` for Debian Bookworm
   * Bootable Container (bootc) [disk images](https://github.com/gbraad-dotfiles/upstream/releases/latest)
     * `machine dotfiles [download|create|start|console]`
