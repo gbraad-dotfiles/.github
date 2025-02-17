@@ -17,7 +17,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
     connects to remote WebDAV endspoints for file sharing
   - `tailscale`  
     aliases and commands for use with my tailnet
-  - `secrets`
+  - `secrets`  
     simple encrypt and decrypt for tokens and TOTP
   - ...
 
