@@ -36,3 +36,10 @@ These dotfiles are based around a few helpers that deal with setting up developm
   * `devenv dotdeb env`, `dev dotdeb [sys|shell]` for Debian Bookworm
   * Bootable Container (bootc) [disk images](https://github.com/gbraad-dotfiles/upstream/releases/latest)
     * `machine dotfiles [download|create|start|console]`
+
+## Developer Environments
+
+  * [CentOS](https://github.com/gbraad-devenv/centos), [golang](https://github.com/gbraad-devenv/centos-golang)
+  * [Debian](https://github.com/gbraad-devenv/debian)
+  * [Fedora](https://github.com/gbraad-devenv/fedora), [golang](https://github.com/gbraad-devenv/fedora-golang)
+  * [UBI9](https://github.com/gbraad-devenv/UBI9), [golang](https://github.com/gbraad-devenv/ubi9-golang)
