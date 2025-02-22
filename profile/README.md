@@ -39,7 +39,9 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
 ## Developer Environments
 
-  * [CentOS](https://github.com/gbraad-devenv/centos), [golang](https://github.com/gbraad-devenv/centos-golang)
-  * [Debian](https://github.com/gbraad-devenv/debian)
-  * [Fedora](https://github.com/gbraad-devenv/fedora), [golang](https://github.com/gbraad-devenv/fedora-golang)
-  * [UBI9](https://github.com/gbraad-devenv/UBI9), [golang](https://github.com/gbraad-devenv/ubi9-golang)
+  * [AlmaLinux](https://github.com/gbraad-devenv/almalinux), with [golang](https://github.com/gbraad-devenv/almalinux-golang)
+  * [CentOS](https://github.com/gbraad-devenv/centos), with [golang](https://github.com/gbraad-devenv/centos-golang)
+  * [Debian](https://github.com/gbraad-devenv/debian), with [golang](https://github.com/gbraad-devenv/debian-golang)
+  * [Fedora](https://github.com/gbraad-devenv/fedora), with [golang](https://github.com/gbraad-devenv/fedora-golang)
+  * [UBI9](https://github.com/gbraad-devenv/UBI9), with [golang](https://github.com/gbraad-devenv/ubi9-golang)
+  * [Ubuntu](https://github.com/gbraad-devenv/ubuntu), with [golang](https://github.com/gbraad-devenv/ubuntu-golang)
