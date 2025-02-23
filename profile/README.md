@@ -29,13 +29,34 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
 ---
 
-## Containers and Virtual Machines
+## Containers
 
   * Open in [GitHub Codespaces](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=60443888&skip_quickstart=true)
   * `devenv dotfed env`, `dev dotfed [sys|shell]` for Fedora 41
   * `devenv dotdeb env`, `dev dotdeb [sys|shell]` for Debian Bookworm
-  * Bootable Container (bootc) [disk images](https://github.com/gbraad-dotfiles/upstream/releases/latest)
-    * `machine dotfiles [download|create|start|console]`
+  
+
+## Image-based Virtual Machines
+
+The `machine.zsh`-helper aids in the process to set up and run image-based virtual machines.
+This is called a Bootable Container (bootc) and here you find the [disk images](https://github.com/gbraad-dotfiles/upstream/releases/latest).
+
+```zsh
+$ machine dotfiles [download|create|start|console]`
+```
+
+### Manual process using `virt-install`
+
+You can otherwise also run
+
+```bash
+$ wget https://github.com/gbraad-dotfiles/upstream/releases/download/250223/almalinux-disk.qcow2 \
+     -O base.qcow2
+$ sudo virt-install \
+    --name base --os-variant fedora-eln \
+    --cpu host --vcpus 4 --memory 4096 \
+    --import --disk ./base.qcow2,format=qcow2
+```
 
 ## Developer Environments
 
