@@ -69,7 +69,7 @@ $ sudo virt-install \
 
 ---
 
-## Build status of dotfiles Containers
+## Build status of dotfiles Containers [⚙️](https://github.com/gbraad-dotfiles/upstream/actions)
 
 ### AlmaLinux
 [![build container - almalinux](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml)
