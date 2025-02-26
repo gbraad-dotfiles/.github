@@ -29,7 +29,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
 
 ### Presentations
-  - [`dotfiles` - Where `${HOME}` is best](https://docs.gbraad.nl/dotfiles-presentation/)
+  - [`.dotfiles` - Where `${HOME}` is best](https://docs.gbraad.nl/dotfiles-presentation/)
 
 ---
 
