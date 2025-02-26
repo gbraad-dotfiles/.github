@@ -27,6 +27,10 @@ These dotfiles are based around a few helpers that deal with setting up developm
 > [!NOTE]
 > Do not use this directly, but take parts and learn from it.
 
+
+### Presentations
+  - [`dotfiles` - Where `${HOME}` is best](https://docs.gbraad.nl/dotfiles-presentation/)
+
 ---
 
 ## Containers
