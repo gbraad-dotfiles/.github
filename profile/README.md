@@ -95,6 +95,7 @@ $ sudo virt-install \
 
 ---
 
-## Other tests
+## Other build status
 
+### Ansible role `gbraad.dotfiles`
 [![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
