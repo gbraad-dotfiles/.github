@@ -91,3 +91,10 @@ $ sudo virt-install \
 [![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)
 [![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)
 [![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)
+
+
+---
+
+## Other tests
+
+[![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
