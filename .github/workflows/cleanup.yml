@@ -1,0 +1,17 @@
+name: Container Registry Cleanup
+
+permissions:
+  contents: read
+  packages: write
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gbraad-actions/cleanup-untagged-packages@main
+        with:
+          package: fedora
+          token: ${{ secrets.PACKAGE_CLEANUP_TOKEN }}
