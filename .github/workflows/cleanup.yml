@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: gbraad-actions/cleanup-untagged-packages@main
         with:
-          package: fedora
+          packages: fedora, centos, almalinux, ubi9, debian, ubuntu, fedora-bootc, centos-bootc, almalinux-bootc
           token: ${{ secrets.PACKAGE_CLEANUP_TOKEN }}
