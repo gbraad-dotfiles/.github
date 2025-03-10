@@ -100,3 +100,6 @@ $ sudo virt-install \
 
 ### Ansible role [`gbraad.dotfiles`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles/) and example/test [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
 [![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
+
+### Container Registry Cleanup
+[![Container Registry Cleanup](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml/badge.svg)](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml)
