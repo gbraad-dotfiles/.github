@@ -6,6 +6,8 @@ permissions:
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
 
 jobs:
   cleanup:
