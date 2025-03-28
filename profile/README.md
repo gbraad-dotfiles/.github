@@ -51,8 +51,12 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=60443888&skip_quickstart=true)
 
-  * `devenv dotfed env`, `dev dotfed [sys|shell]` for Fedora 41
-  * `devenv dotdeb env`, `dev dotdeb [sys|shell]` for Debian Bookworm
+  * `devenv dotfedora env`, `dev dotfedora [sys|shell]` for Fedora 41
+  * `devenv dotdebian env`, `dev dotdebian [sys|shell]` for Debian Bookworm
+  * `dotalma`
+  * `dotubuntu`
+  * `dotcentos`
+  * `dotubi9`
   
 
 ## Image-based Virtual Machines
