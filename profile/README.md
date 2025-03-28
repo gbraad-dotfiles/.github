@@ -33,6 +33,20 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
 ---
 
+## Extensions for VS Code
+
+### [Dotfiles checker](https://github.com/gbraad-vscode/dotfiles-checker/) - [Marketplace](https://marketplace.visualstudio.com/items?itemName=gbraad.dotfiles-checker), [Open VSX Registry](https://open-vsx.org/extension/gbraad/dotfiles-checker)
+
+An extension that checks for and install my personal dotfiles
+
+
+### [Dotfiles tools](https://github.com/gbraad-vscode/dotfiles-tools/) - [Marketplace](https://marketplace.visualstudio.com/items?itemName=gbraad.dotfiles-tools), [Open VSX Registry](https://open-vsx.org/extension/gbraad/dotfiles-tools)
+
+An extension that automates `devenv.zsh` and `machine.zsh`.
+
+
+---
+
 ## Containers
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=60443888&skip_quickstart=true)
