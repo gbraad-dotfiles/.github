@@ -27,9 +27,11 @@ These dotfiles are based around a few helpers that deal with setting up developm
 > [!NOTE]
 > Do not use this directly, but take parts and learn from it.
 
+---
 
-### Presentations
+## Presentations
   - [`.dotfiles` - Where `${HOME}` is best](https://docs.gbraad.nl/dotfiles-presentation/)
+
 
 ---
 
@@ -89,6 +91,7 @@ $ sudo virt-install \
   * [Fedora](https://github.com/gbraad-devenv/fedora), with [golang](https://github.com/gbraad-devenv/fedora-golang)
   * [UBI9](https://github.com/gbraad-devenv/UBI9), with [golang](https://github.com/gbraad-devenv/ubi9-golang)
   * [Ubuntu](https://github.com/gbraad-devenv/ubuntu), with [golang](https://github.com/gbraad-devenv/ubuntu-golang)
+
 
 ---
 
