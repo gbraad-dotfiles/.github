@@ -27,11 +27,6 @@ These dotfiles are based around a few helpers that deal with setting up developm
 > [!NOTE]
 > Do not use this directly, but take parts and learn from it.
 
----
-
-## Presentations
-  - [`.dotfiles` - Where `${HOME}` is best](https://docs.gbraad.nl/dotfiles-presentation/)
-
 
 ---
 
@@ -124,3 +119,9 @@ $ sudo virt-install \
 
 ### Container Registry Cleanup
 [![Container Registry Cleanup](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml/badge.svg)](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml)
+
+
+---
+
+## Presentations
+  - [`.dotfiles` - Where `${HOME}` is best](https://docs.gbraad.nl/dotfiles-presentation/)
