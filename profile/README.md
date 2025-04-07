@@ -44,6 +44,18 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
 
 ---
 
+## Feature for devcontainers
+
+Install my personal dotfiles as a feature during the devcontainer build process.
+
+```json
+    "features": {
+        "ghcr.io/gbraad-vscode/devcontainer-features/dotfiles:latest": {}
+    }
+```
+
+---
+
 ## Containers
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=60443888&skip_quickstart=true)
