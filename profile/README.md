@@ -66,7 +66,7 @@ Install my personal dotfiles as a feature during the devcontainer build process.
   * `dotubuntu`
   * `dotcentos`
   * `dotubi9`
-  * `dotaine`
+  * `dotalpine`
   
 
 ## Image-based Virtual Machines
