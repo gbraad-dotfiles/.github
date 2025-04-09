@@ -50,7 +50,7 @@ Install my personal dotfiles as a feature during the devcontainer build process.
 
 ```json
     "features": {
-        "ghcr.io/gbraad-vscode/devcontainer-features/dotfiles:latest": {}
+        "ghcr.io/gbraad-dotfiles/devcontainer-features/dotfiles:latest": {}
     }
 ```
 
