@@ -121,6 +121,7 @@ $ sudo virt-install \
 [![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)
 [![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)
 [![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)
+[![build container - Alpine](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml)
 
 
 ---
