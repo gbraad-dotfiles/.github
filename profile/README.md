@@ -10,7 +10,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
   - `dotfiles`  
     handles installation and update of my dotfiles
   - `devenv`  
-    deals with [development environments](https://github.com/gbraad-devenv/)
+    deals with [instant development environments](https://github.com/gbraad-devenv/)
   - `machine`  
     create VMs using bootc image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others
   - `proxy`  
