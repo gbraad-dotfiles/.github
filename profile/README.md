@@ -27,6 +27,12 @@ These dotfiles are based around a few helpers that deal with setting up developm
 > [!NOTE]
 > Do not use this directly, but take parts and learn from it.
 
+---
+
+## One-line install
+```bash
+curl -fsSL https://dotfiles.gbraad.nl/install.sh | sh
+```
 
 ---
 
