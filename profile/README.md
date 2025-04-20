@@ -97,7 +97,7 @@ $ sudo virt-install \
     --import --disk ./base.qcow2,format=qcow2
 ```
 
-## Developer Environments
+## Instant Developer Environments
 
   * [AlmaLinux](https://github.com/gbraad-devenv/almalinux), with [golang](https://github.com/gbraad-devenv/almalinux-golang)
   * [CentOS](https://github.com/gbraad-devenv/centos), with [golang](https://github.com/gbraad-devenv/centos-golang)
