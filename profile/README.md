@@ -78,7 +78,7 @@ Install my personal dotfiles as a feature during the devcontainer build process.
 ## Image-based Virtual Machines
 
 The `machine.zsh`-helper aids in the process to set up and run image-based virtual machines.
-This is called a Bootable Container (bootc) and here you find the [disk images](https://github.com/gbraad-dotfiles/upstream/releases/latest).
+This is called a Bootable Container (bootc). Disk images are stored as OCI artifacts.
 
 ```zsh
 $ machine dotfiles [download|create|start|console]`
