@@ -111,23 +111,23 @@ $ sudo virt-install \
 
 ## Build status of dotfiles Containers [⚙️](https://github.com/gbraad-dotfiles/upstream/actions)
 
-### AlmaLinux
-[![build container - almalinux](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml)
-[![build container - almalinux-bootc](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux-bootc.yml)
-
 ### Fedora
-[![build container - fedora](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml)
-[![build container - fedora-bootc](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora-bootc.yml)
+ [![build container - fedora](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml)  
+ [![build container - fedora-bootc](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora-bootc.yml)
 
 ### CentOS
-[![build container - centos](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml)
-[![build container - centos-bootc](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos-bootc.yml)
+ [![build container - centos](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml)  
+ [![build container - centos-bootc](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos-bootc.yml)
+
+### AlmaLinux
+ [![build container - almalinux](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml)  
+ [![build container - almalinux-bootc](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux-bootc.yml)
 
 ### Others
-[![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)
-[![build container - Alpine](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml)
-[![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)
-[![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)
+ [![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)  
+ [![build container - Alpine](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml)  
+ [![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)  
+ [![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)
 
 
 ---
