@@ -81,7 +81,7 @@ The `machine.zsh`-helper aids in the process to set up and run image-based virtu
 This is called a Bootable Container (bootc). Disk images are stored as OCI artifacts.
 
 ```zsh
-$ machine dotfiles [download|create|start|console]`
+$ machine dotfiles [download|create|start|console]
 ```
 
 ### Manual process using `virt-install`
