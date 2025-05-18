@@ -123,7 +123,8 @@ country
     "The Netherlands"
 
 > [!NOTE]
-> More information can be found in the dedicated [gbraad-dotfiles/notebooks](https://github.com/gbraad-dotfiles/notebooks) repositrory with examples.
+> To use the extension, `stow ipython` needs to be run. More information can be found in the dedicated
+> [gbraad-dotfiles/notebooks](https://github.com/gbraad-dotfiles/notebooks) repository with examples.
 
 ---
 
