@@ -109,6 +109,24 @@ $ sudo virt-install \
 
 ---
 
+## Usage in Jupyter notebooks
+
+```python
+%load_ext dotfiles
+```
+
+```zsh
+%%dotfiles
+country
+```
+
+    "The Netherlands"
+
+> [!NOTE]
+> More information can be found in the dedicated [gbraad-dotfiles/notebooks](https://github.com/gbraad-dotfiles/notebooks) repositrory with examples.
+
+---
+
 ## Build status of dotfiles Containers [⚙️](https://github.com/gbraad-dotfiles/upstream/actions)
 
 ### Fedora
