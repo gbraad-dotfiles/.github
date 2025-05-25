@@ -71,15 +71,15 @@ These are container images with the dotfiles and dependencies installed, able to
   * `devenv dotfedora env`, `dev dotfedora [system|shell|exec]` for Fedora
   * `devenv dotdebian env`, `dev dotdebian [system|shell|exec]` for Debian
   * ... `dotalma` for AlmaLinux
+  * ... `dotcentos` for CentOS Stream
+  * ... `dotubi9` for RHEL UBI9
   * ... `dotubuntu` for Ubuntu
-  * ... `dotcentos` for CentOS
-  * ... `dotubi9` for UBI9
   * ... `dotalpine` for Alpine
   
 
 ## Image-based Virtual Machines
 
-The `machine.zsh`-helper aids in the process to set up and run image-based virtual machines.
+The `machine.zsh`-helper assists in the process to set up and run image-based virtual machines.
 This is called a Bootable Container (bootc). Disk images are stored as OCI artifacts.
 
 ```zsh
@@ -101,10 +101,10 @@ $ sudo virt-install \
 
 ## Instant Developer Environments
 
+  * [Fedora](https://github.com/gbraad-devenv/fedora), with [golang](https://github.com/gbraad-devenv/fedora-golang)
+  * [Debian](https://github.com/gbraad-devenv/debian), with [golang](https://github.com/gbraad-devenv/debian-golang)
   * [AlmaLinux](https://github.com/gbraad-devenv/almalinux), with [golang](https://github.com/gbraad-devenv/almalinux-golang)
   * [CentOS](https://github.com/gbraad-devenv/centos), with [golang](https://github.com/gbraad-devenv/centos-golang)
-  * [Debian](https://github.com/gbraad-devenv/debian), with [golang](https://github.com/gbraad-devenv/debian-golang)
-  * [Fedora](https://github.com/gbraad-devenv/fedora), with [golang](https://github.com/gbraad-devenv/fedora-golang)
   * [UBI9](https://github.com/gbraad-devenv/UBI9), with [golang](https://github.com/gbraad-devenv/ubi9-golang)
   * [Ubuntu](https://github.com/gbraad-devenv/ubuntu), with [golang](https://github.com/gbraad-devenv/ubuntu-golang)
 
@@ -127,6 +127,12 @@ country
 > [!NOTE]
 > To use the extension, `stow ipython` needs to be run. More information can be found in the dedicated
 > [gbraad-dotfiles/notebooks](https://github.com/gbraad-dotfiles/notebooks) repository with examples.
+
+---
+
+## Actions 
+
+
 
 ---
 
