@@ -137,7 +137,7 @@ country
 
 ```yaml
       - name: Install dotfiles action
-        uses: gbraad-dotfiles/install-action@v1
+        uses: gbraad-dotfiles/install-action@main
 ```
 
 
