@@ -122,7 +122,8 @@ $ sudo virt-install \
 country
 ```
 
-    "The Netherlands"
+    The Netherlands
+
 
 > [!NOTE]
 > To use the extension, `stow ipython` needs to be run. More information can be found in the dedicated
