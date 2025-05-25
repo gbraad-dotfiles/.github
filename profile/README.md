@@ -132,7 +132,35 @@ country
 
 ## Actions 
 
+### `install`
 
+```yaml
+      - name: Install dotfiles action
+        uses: gbraad-dotfiles/install-action@v1
+```
+
+
+### `devenv`
+
+```yaml
+      - name: Run devenv command
+        uses: gbraad-dotfiles/devenv-action@main
+        with:
+          prefix: dotfedora
+          command: exec  # system, noinit, etc
+          args: cat /etc/os-release
+```
+
+
+### `machine`
+
+```yaml
+      - name: Run machine command
+        uses: gbraad-dotfiles/machine-action@main
+        with:
+          prefix: dotfedora
+          command: download   # start, stop, etc
+```
 
 ---
 
