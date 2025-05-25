@@ -66,8 +66,10 @@ Install my personal dotfiles as a feature during the devcontainer build process.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=60443888&skip_quickstart=true)
 
-  * `devenv dotfedora env`, `dev dotfedora [sys|shell]` for Fedora
-  * `devenv dotdebian env`, `dev dotdebian [sys|shell]` for Debian
+These are container images with the dotfiles and dependencies installed, able to run as a system container.
+
+  * `devenv dotfedora env`, `dev dotfedora [system|shell|exec]` for Fedora
+  * `devenv dotdebian env`, `dev dotdebian [system|shell|exec]` for Debian
   * ... `dotalma` for AlmaLinux
   * ... `dotubuntu` for Ubuntu
   * ... `dotcentos` for CentOS
