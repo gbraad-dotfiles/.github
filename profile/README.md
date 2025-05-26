@@ -165,8 +165,7 @@ country
 
 ---
 
-## Ansible role [`gbraad.dotfiles`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles/) and example/test [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
- [![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
+## Ansible role [`gbraad.dotfiles`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles/)
 
 ```yaml
     - name: Install dotfiles
@@ -177,6 +176,21 @@ country
             user: gbraad
 ```
 
+## Ansible role [`gbraad.dotfiles-devenv`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles-devenv/)
+
+```yaml
+    - name: Run devenv command
+      hosts: localhost
+      roles:
+        - role: gbraad.dotfiles-devenv
+          vars:
+            prefix: gofedora
+            command: exec
+            args: su gbraad -l -c "cd ~/Projects/crc-org/crc && make clean && make cross"
+```
+
+## Example/test [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
+ [![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
 
 ---
 
