@@ -169,12 +169,12 @@ country
  [![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
 
 ```yaml
-- name: Install dotfiles
-  hosts: localhost
-  roles:
-    - role: gbraad.dotfiles
-      vars:
-        user: gbraad
+    - name: Install dotfiles
+      hosts: localhost
+      roles:
+        - role: gbraad.dotfiles
+          vars:
+            user: gbraad
 ```
 
 
