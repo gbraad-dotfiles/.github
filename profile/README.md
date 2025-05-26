@@ -185,8 +185,7 @@ country
         - role: gbraad.dotfiles-devenv
           vars:
             prefix: gofedora
-            command: exec
-            args: su gbraad -l -c "cd ~/Projects/crc-org/crc && make clean && make cross"
+            command: start
 ```
 
 ## Example/test [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
