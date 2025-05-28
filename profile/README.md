@@ -111,7 +111,7 @@ $ sudo virt-install \
 
 ---
 
-## Usage in Jupyter notebooks
+## Usage in Jupyter [notebooks](https://github.com/gbraad-dotfiles/notebooks)
 
 ```python
 %load_ext dotfiles
@@ -165,7 +165,7 @@ country
 
 ---
 
-## Ansible role [`gbraad.dotfiles`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles/)
+## Ansible role [`gbraad.dotfiles`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles/) and [playbooks](https://github.com/gbraad-dotfiles/playbooks)
 
 ```yaml
     - name: Install dotfiles
