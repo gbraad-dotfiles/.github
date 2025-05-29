@@ -193,7 +193,7 @@ country
 
 ---
 
-## Build status of dotfiles Containers [⚙️](https://github.com/gbraad-dotfiles/upstream/actions)
+## Build status of dotfiles Containers [⚙️](https://github.com/gbraad-dotfiles/upstream/actions) [⚙️](https://app.blacksmith.sh) [⚙️](https://app.warpbuild.com)
 
 ### Fedora
  [![build container - fedora](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml)  
