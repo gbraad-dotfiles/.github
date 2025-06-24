@@ -150,7 +150,19 @@ country
         uses: gbraad-dotfiles/devenv-action@main
         with:
           prefix: dotfedora
-          command: exec  # system, noinit, apps, etc
+          command: exec  # create|system|noinit, start, apps, etc
+          args: cat /etc/os-release
+```
+
+
+### `devbox` (Distrobox wrapper)
+
+```yaml
+      - name: Run devbox command
+        uses: gbraad-dotfiles/devbox-action@main
+        with:
+          prefix: fedora
+          command: exec  # create, start, apps, etc
           args: cat /etc/os-release
 ```
 
