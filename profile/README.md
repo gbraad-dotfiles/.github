@@ -21,6 +21,8 @@ These dotfiles are based around a few helpers that deal with setting up developm
     aliases and commands for use with my tailnet
   - `secrets`  
     simple encrypt and decrypt for tokens and TOTP
+  - `apps`  
+    installing and running according to [application definitions](https://github.com/gbraad-dotfiles/applications/)
   - ...
 
 
@@ -148,8 +150,19 @@ country
         uses: gbraad-dotfiles/devenv-action@main
         with:
           prefix: dotfedora
-          command: exec  # system, noinit, etc
+          command: exec  # system, noinit, apps, etc
           args: cat /etc/os-release
+```
+
+
+### `apps`
+
+```yaml
+      - name: Run app install
+        uses: gbraad-dotfiles/apps-action@main
+        with:
+          appname: vivaldi
+          action: install
 ```
 
 
@@ -186,6 +199,18 @@ country
           vars:
             prefix: gofedora
             command: start
+```
+
+## Ansible role [`gbraad.dotfiles-apps`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles-apps/)
+
+```yaml
+    - name: Run app installs
+      hosts: localhost
+      roles:
+        - role: gbraad.dotfiles-apps
+          vars:
+            appname: vivaldi
+            action: install
 ```
 
 ## Example/test [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
