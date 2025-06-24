@@ -185,7 +185,7 @@ country
         uses: gbraad-dotfiles/machine-action@main
         with:
           prefix: dotfedora
-          command: download   # start, stop, etc
+          command: download   #  [create|start|stop|...]
 ```
 
 ---
