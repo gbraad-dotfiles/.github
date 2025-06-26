@@ -264,3 +264,8 @@ country
 
 ## Presentations
   - [`.dotfiles` - Where `${HOME}` is best](https://docs.gbraad.nl/dotfiles-presentation/)
+
+
+---
+
+Runners kindly provided by [Blacksmith](https://docs.blacksmith.sh/introduction/why-blacksmith) and [WarpBuild](https://docs.warpbuild.com).
