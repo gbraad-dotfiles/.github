@@ -135,7 +135,7 @@ country
 
 ## Actions 
 
-### `install`
+### [`install-action`](https://github.com/gbraad-dotfiles/install-action/)
 
 ```yaml
       - name: Install dotfiles action
@@ -143,7 +143,7 @@ country
 ```
 
 
-### `devenv`
+### [`devenv-action`](https://github.com/gbraad-dotfiles/devenv-action/)
 
 ```yaml
       - name: Run devenv command
@@ -155,7 +155,7 @@ country
 ```
 
 
-### `devbox` (Distrobox wrapper)
+### [`devbox-action`](https://github.com/gbraad-dotfiles/devbox-action/)
 
 ```yaml
       - name: Run devbox command
@@ -167,7 +167,18 @@ country
 ```
 
 
-### `apps`
+### [`machine-action`](https://github.com/gbraad-dotfiles/machine-action/)
+
+```yaml
+      - name: Run machine command
+        uses: gbraad-dotfiles/machine-action@main
+        with:
+          prefix: dotfedora
+          command: download   #  [create|start|stop|...]
+```
+
+
+### [`apps-action`](https://github.com/gbraad-dotfiles/apps-action/)
 
 ```yaml
       - name: Run app install
@@ -177,16 +188,6 @@ country
           action: install
 ```
 
-
-### `machine`
-
-```yaml
-      - name: Run machine command
-        uses: gbraad-dotfiles/machine-action@main
-        with:
-          prefix: dotfedora
-          command: download   #  [create|start|stop|...]
-```
 
 ---
 
