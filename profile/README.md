@@ -133,9 +133,9 @@ country
 
 ---
 
-## Actions 
+## GitHub Actions 
 
-### [`install-action`](https://github.com/gbraad-dotfiles/install-action/)
+### GitHub Action: [`install-action`](https://github.com/gbraad-dotfiles/install-action/)
 
 ```yaml
       - name: Install dotfiles action
@@ -143,7 +143,7 @@ country
 ```
 
 
-### [`devenv-action`](https://github.com/gbraad-dotfiles/devenv-action/)
+### GitHub Action: [`devenv-action`](https://github.com/gbraad-dotfiles/devenv-action/)
 
 ```yaml
       - name: Run devenv command
@@ -155,7 +155,7 @@ country
 ```
 
 
-### [`devbox-action`](https://github.com/gbraad-dotfiles/devbox-action/)
+### GitHub Action: [`devbox-action`](https://github.com/gbraad-dotfiles/devbox-action/)
 
 ```yaml
       - name: Run devbox command
@@ -167,7 +167,7 @@ country
 ```
 
 
-### [`machine-action`](https://github.com/gbraad-dotfiles/machine-action/)
+### GitHub Action: [`machine-action`](https://github.com/gbraad-dotfiles/machine-action/)
 
 ```yaml
       - name: Run machine command
@@ -178,7 +178,7 @@ country
 ```
 
 
-### [`apps-action`](https://github.com/gbraad-dotfiles/apps-action/)
+### GitHub Action: [`apps-action`](https://github.com/gbraad-dotfiles/apps-action/)
 
 ```yaml
       - name: Run app install
@@ -191,7 +191,9 @@ country
 
 ---
 
-## Ansible role [`gbraad.dotfiles`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles/) and [playbooks](https://github.com/gbraad-dotfiles/playbooks)
+## Ansible
+
+### Ansible role: [`gbraad.dotfiles`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles/) and [playbooks](https://github.com/gbraad-dotfiles/playbooks)
 
 ```yaml
     - name: Install dotfiles
@@ -202,7 +204,7 @@ country
             user: gbraad
 ```
 
-## Ansible role [`gbraad.dotfiles-devenv`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles-devenv/)
+### Ansible role: [`gbraad.dotfiles-devenv`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles-devenv/)
 
 ```yaml
     - name: Run devenv command
@@ -214,7 +216,7 @@ country
             command: start
 ```
 
-## Ansible role [`gbraad.dotfiles-apps`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles-apps/)
+### Ansible role: [`gbraad.dotfiles-apps`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles-apps/)
 
 ```yaml
     - name: Run app installs
@@ -226,7 +228,7 @@ country
             action: install
 ```
 
-## Example/test [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
+### Example/test: [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
  [![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
 
 ---
