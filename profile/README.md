@@ -206,7 +206,7 @@ country
 
 > [!NOTE]
 > This runs the specified commands without the need to 'install' the dotfiles.
-> It is reuired for the runner to have `zsh` installed.
+> It is required for the runner to have `zsh` installed.
 
 
 ---
