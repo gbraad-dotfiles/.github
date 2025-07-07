@@ -189,6 +189,21 @@ country
 ```
 
 
+### GitHub Action: [`dot-action`](https://github.com/gbraad-dotfiles/dot-action/)
+
+```yaml
+      - name: Requiremnent for dot
+        run: |
+          sudo apt update
+          sudo apt install -y zsh
+
+      - name: Run dot command - devenv dotfedora exec cat /etc/os-release
+        uses: gbraad-dotfiles/dot-action@main
+        with:
+          run: |
+            devenv dotfedora exec cat /etc/os-release
+```
+
 ---
 
 ## Ansible
