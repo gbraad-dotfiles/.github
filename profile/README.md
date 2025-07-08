@@ -36,6 +36,9 @@ These dotfiles are based around a few helpers that deal with setting up developm
 curl -fsSL https://dotfiles.gbraad.nl/install.sh | sh
 ```
 
+> [!NOTE]
+> This [`script`](https://github.com/gbraad-dotfiles/gbraad-dotfiles.github.io/blob/main/install.sh) uses the stable [`downstream`](https://github.com/gbraad/dotfiles-stable) to install.
+
 ---
 
 ## Extensions for VS Code
