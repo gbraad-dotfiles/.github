@@ -282,6 +282,13 @@ country
 ### Container Registry Cleanup
  [![Container Registry Cleanup](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml/badge.svg)](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml)
 
+---
+
+## Downstream
+
+  - [`dotfiles-stable`](https://github.com/gbraad/dotfiles-stable) - used in [`one-line install`](https://github.com/gbraad-dotfiles#one-line-install)
+  - [`gbraad-devenv`](https://github.com/gbraad-devenv/dotfiles)
+  - [`gbraad-redhat/dotfiles`](https://github.com/gbraad-redhat/dotfiles)
 
 ---
 
