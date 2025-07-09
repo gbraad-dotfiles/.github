@@ -146,6 +146,16 @@ country
 ```
 
 
+### GitHub Action: [`dotfiles-action`](https://github.com/gbraad-dotfiles/dotfiles-action/)
+
+```yaml
+      - name: Run dotfiles command
+        uses: gbraad-dotfiles/dotfiles-action@main
+        with:
+          action: update
+```
+
+
 ### GitHub Action: [`devenv-action`](https://github.com/gbraad-dotfiles/devenv-action/)
 
 ```yaml
