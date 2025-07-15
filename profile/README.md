@@ -129,6 +129,14 @@ country
 
     The Netherlands
 
+```
+%%dotscript
+proxy ndisguise
+country
+```
+
+    Germany
+
 ```zsh
 out=%dotini dotfiles file
 %code out ini
