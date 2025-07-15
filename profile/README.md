@@ -123,11 +123,27 @@ $ sudo virt-install \
 ```
 
 ```zsh
-%%dotfiles
+%%dotscript
 country
 ```
 
     The Netherlands
+
+```zsh
+out=%dotini dotfiles file
+%code out ini
+```
+
+```zsh
+out=%dot ps ax
+%code out
+```
+
+```zsh
+%apps list services
+%apps pinger service install
+%apps pinger service status
+```
 
 
 > [!NOTE]
