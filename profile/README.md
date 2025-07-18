@@ -53,6 +53,21 @@ An extension that checks for and install my personal dotfiles
 An extension that automates `devenv.zsh` and `machine.zsh`.
 
 
+### Dot environment (`tasks.json`)
+
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dot",
+            "type": "shell",
+            "command": "~/.dotfiles/bash/.local/bin/dot"
+        }
+    ]
+}
+```
+
 ---
 
 ## Feature for devcontainers
