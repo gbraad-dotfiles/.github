@@ -70,9 +70,9 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
 ```
 
 `settings.json`
-```
+```json
 {
-    "workbench.colorTheme": "Tomorrow Night Bright",
+    "terminal.integrated.defaultProfile.linux": "dot"
     "terminal.integrated.profiles.linux": {
         "dot": {
             // absolute path is necessary (no variables)
@@ -80,6 +80,7 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
         }
     }
 }
+```
 
 ---
 
