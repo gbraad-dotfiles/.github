@@ -127,7 +127,7 @@ $ sudo virt-install \
 country
 ```
 
-    The Netherlands
+    > The Netherlands
 
 ```
 %%dotscript
@@ -135,7 +135,7 @@ proxy ndisguise
 country
 ```
 
-    Germany
+    > Germany
 
 ```zsh
 out=%dotini dotfiles file
