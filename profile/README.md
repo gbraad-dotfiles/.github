@@ -53,8 +53,9 @@ An extension that checks for and install my personal dotfiles
 An extension that automates `devenv.zsh` and `machine.zsh`.
 
 
-### Dot environment (`tasks.json`)
+### Dot environment (`.dotfiles` without install)
 
+`tasks.json`
 ```json
 {
     "version": "2.0.0",
@@ -67,6 +68,18 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
     ]
 }
 ```
+
+`settings.json`
+```
+{
+    "workbench.colorTheme": "Tomorrow Night Bright",
+    "terminal.integrated.profiles.linux": {
+        "dot": {
+            // absolute path is necessary (no variables)
+            "path": "/home/.../.dotfiles/bash/.local/bin/dot"
+        }
+    }
+}
 
 ---
 
