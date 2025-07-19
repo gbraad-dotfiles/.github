@@ -68,7 +68,7 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
         {
             "label": "dotscreen",
             "type": "shell",
-            "command": "~/.dotfiles/bash/.local/bin/dot screen"
+            "command": "~/.dotfiles/bash/.local/bin/dotscreen"
         }
     ]
 }
