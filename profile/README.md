@@ -64,6 +64,11 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
             "label": "dot",
             "type": "shell",
             "command": "~/.dotfiles/bash/.local/bin/dot"
+        },
+        {
+            "label": "dotscreen",
+            "type": "shell",
+            "command": "~/.dotfiles/bash/.local/bin/dot screen"
         }
     ]
 }
@@ -72,11 +77,14 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
 `settings.json`
 ```json
 {
-    "terminal.integrated.defaultProfile.linux": "dot"
+    "terminal.integrated.defaultProfile.linux": "dot",
     "terminal.integrated.profiles.linux": {
         "dot": {
             // absolute path is necessary (no variables)
             "path": "/home/.../.dotfiles/bash/.local/bin/dot"
+        },
+        "dotscreen": {
+            "path": "/home/.../.dotfiles/bash/.local/bin/dotscreen"
         }
     }
 }
