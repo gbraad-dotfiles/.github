@@ -55,25 +55,6 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
 
 ### Dot environment (`.dotfiles` without install)
 
-`tasks.json`
-```json
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "dot",
-            "type": "shell",
-            "command": "~/.dotfiles/bash/.local/bin/dot"
-        },
-        {
-            "label": "dotscreen",
-            "type": "shell",
-            "command": "~/.dotfiles/bash/.local/bin/dotscreen"
-        }
-    ]
-}
-```
-
 `settings.json`
 ```json
 {
@@ -89,6 +70,32 @@ An extension that automates `devenv.zsh` and `machine.zsh`.
     }
 }
 ```
+
+`tasks.json`
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dot",
+            "type": "shell",
+            "problemMatcher": [],
+            "command": "~/.dotfiles/bash/.local/bin/dot"
+            //"command": "zsh"    // when dot is used as default terminal
+        },
+        {
+            "label": "dotscreen",
+            "type": "shell",
+            "problemMatcher": [],
+            "command": "~/.dotfiles/bash/.local/bin/dotscreen"
+            //"command": "screen"
+        }
+    ]
+}
+```
+
+> [!NOTE]
+> Tasks are run in the `default` termina. If this is set to `dot`, any function that has been defined, can be run directly.
 
 ---
 
