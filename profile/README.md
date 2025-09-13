@@ -348,7 +348,7 @@ out=%dot ps ax
 
 ### AlmaLinux
  [![build container - almalinux](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml)  
- [![Build and Push AlmaLinux bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml)
+ [![Build and Push AlmaLinux bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml)
 
 ### Others
  [![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)  
