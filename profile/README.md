@@ -12,7 +12,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
   - `devenv`, `devbox`  
     deals with [instant development environments](https://github.com/gbraad-devenv/)
   - `machine`  
-    create VMs using packer and bootc image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others, utilizing [macadam](https://github.com/crc-org/macadam/)
+    create VMs using packer and bootc image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others, utilizing [`macadam`](https://github.com/crc-org/macadam/) and [`machinefile`](https://github.com/gbraad-redhat/machinefile)
   - `proxy`  
     sets environment to use a proxy to access services
   - `davfs`  
@@ -21,8 +21,10 @@ These dotfiles are based around a few helpers that deal with setting up developm
     aliases and commands for use with my tailnet
   - `secrets`  
     simple encrypt and decrypt for tokens and TOTP
-  - `apps`  
-    installing and running according to [application definitions](https://github.com/gbraad-dotfiles/applications/)
+  - `app`  
+    installing and running according to [application definitions](https://github.com/gbraad-dotfiles/applications/) as Actionfiles
+  - `action` / `run`  
+    automation framework using Actionfiles, a markdown-based file for script execution
   - `screen`  
     smart(er) handling of local and remote screen session with tmux
   - ...
