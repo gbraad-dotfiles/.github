@@ -35,6 +35,19 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
 ---
 
+## Related side-projects
+
+### [Actionfile](https://dotfiles.gbraad.nl/actionfile)
+
+A Markdown-based configuration file that describes a set of actions, scripts, or tasks for use in automation workflows
+
+
+### [Machinefile](https://dotfiles.gbraad.nl/machinefile)
+
+A simple executor that allows you to run `Dockerfile`/`Containerfile` commands directly on a local or remote host
+
+---
+
 ## One-line install
 ```bash
 curl -fsSL https://dotfiles.gbraad.nl/install.sh | sh
