@@ -10,7 +10,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
   - `dotfiles`  
     handles installation and update of my dotfiles
   - `devenv`, `devbox`  
-    deals with [instant development environments](https://github.com/gbraad-devenv/)
+    deals with running [instant development environments](https://github.com/gbraad-devenv/) as containers with [Podman](https://podman.io)
   - `machine`  
     create VMs using packer and bootc image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others, utilizing [`macadam`](https://github.com/crc-org/macadam/) and [`machinefile`](https://github.com/gbraad-redhat/machinefile)
   - `proxy`  
