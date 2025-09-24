@@ -276,11 +276,11 @@ out=%dot ps ax
 ```
 
 
-### GitHub Action: [`apps-action`](https://github.com/gbraad-dotfiles/apps-action/)
+### GitHub Action: [`app-action`](https://github.com/gbraad-dotfiles/app-action/)
 
 ```yaml
       - name: Run app install
-        uses: gbraad-dotfiles/apps-action@main
+        uses: gbraad-dotfiles/app-action@main
         with:
           appname: vivaldi
           action: install
