@@ -209,9 +209,9 @@ out=%dot ps ax
 ```
 
 ```zsh
-%apps list services
-%apps pinger service install
-%apps pinger service status
+%app list services
+%app pinger service install
+%app pinger service status
 ```
 
 
