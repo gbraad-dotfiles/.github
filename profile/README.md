@@ -30,6 +30,9 @@ These dotfiles are based around a few helpers that deal with setting up developm
   - ...
 
 
+![screenshot](./dotfiles.png)
+
+
 > [!NOTE]
 > Do not use this directly, but take parts and learn from it.
 
