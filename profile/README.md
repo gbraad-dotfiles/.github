@@ -27,7 +27,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
     automation framework using [Actionfiles](https://dotfiles.gbraad.nl/actionfile), a markdown-based file for script execution
   - `screen`  
     smart(er) handling of local and remote screen session with tmux
-  - `dotini`, `appini`
+  - `dotini`, `appini`  
     global and local configuration of dotfiles, and applications, using the Actionfile's `config`-block or `ini`-files with `git config`
   - ...
 
