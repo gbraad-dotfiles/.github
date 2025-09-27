@@ -405,3 +405,23 @@ out=%dot ps ax
 ---
 
 Runners kindly provided by [Blacksmith](https://docs.blacksmith.sh/introduction/why-blacksmith) and [WarpBuild](https://docs.warpbuild.com).
+
+---
+
+# Compatibility
+
+  * [Developer environment](https://github.com/gbraad-devenv) image
+  * Google Cloud Platform [cloud shell](https://console.cloud.google.com)
+  * Windows Subsystem for Linux (WSL2); Bash on Ubuntu on Windows (WSL1)
+  * Tested on: CentOS7+, Fedora 21+, and Ubuntu 14.04+
+  * GitPod
+  * Cygwin64
+  * Termux
+  * ...
+
+
+# Author
+
+| [!["Gerard Braad"](http://gravatar.com/avatar/e466994eea3c2a1672564e45aca844d0.png?s=60)](http://gbraad.nl "Gerard Braad <me@gbraad.nl>") |
+|---|
+| [@gbraad](https://gbraad.nl/social) |
