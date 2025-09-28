@@ -391,6 +391,9 @@ out=%dot ps ax
 ### Actionfiles
  [![Actionfiles tests](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml)
 
+### Notebooks
+ [![Notebook tests](https://github.com/gbraad-dotfiles/notebooks/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/notebooks/actions/workflows/build-process.yml)
+
 ---
 
 ## Downstream
