@@ -389,7 +389,7 @@ out=%dot ps ax
  [![Application installs](https://github.com/gbraad-dotfiles/applications/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/applications/actions/workflows/build-process.yml)
 
 ### Actionfiles
- [![Actionfiles tests](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml)
+ [![Actionfiles tests](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml)
 
 ---
 
