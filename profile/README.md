@@ -29,6 +29,8 @@ These dotfiles are based around a few helpers that deal with setting up developm
     smart(er) handling of local and remote screen session with tmux
   - `dotini`, `appini`  
     global and local configuration of dotfiles, and applications, using the Actionfile's `config`-block or `ini`-files with `git config`
+  - `playbook`, `notebook`  
+    helpers to execute and edit Ansible playbooks and Jupyter notebooks
   - ...
 
 
