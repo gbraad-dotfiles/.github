@@ -355,6 +355,18 @@ out=%dot ps ax
             action: install
 ```
 
+### Ansible role: [`gbraad.dotfiles-machine`](https://github.com/gbraad-dotfiles/ansible-role-dotfiles-machine/)
+
+```yaml
+    - name: Run Go build vm
+      hosts: localhost
+      roles:
+        - role: gbraad.dotfiles-machine
+          vars:
+            prefix: gofedora
+            command: start
+```
+
 ### Example/test: [⚙️](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions)
  [![ansible-dotfiles-test](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/ansible-dotfiles-example/actions/workflows/build-process.yml)
 
