@@ -38,7 +38,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
 
 > [!NOTE]
-> Do not use this directly, but take parts and learn from it.
+> Since I continously change how I work, so do these files and scripts. Do not use this directly, but take parts and learn from it.
 
 ---
 
