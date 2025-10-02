@@ -31,6 +31,8 @@ These dotfiles are based around a few helpers that deal with setting up developm
     global and local configuration of dotfiles, and applications, using the Actionfile's `config`-block or `ini`-files with `git config`
   - `playbook`, `notebook`  
     helpers to execute and edit Ansible playbooks and Jupyter notebooks
+  - Applications  
+    `apps`, `actions`, `devenvs`, `machines`, `services`,  `userctl`, `playbooks`, `notebooks`, ...
   - ...
 
 
