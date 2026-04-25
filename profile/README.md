@@ -7,6 +7,8 @@ These are my dotfiles that I use for all my workstation and developement environ
 
 These dotfiles are based around a few helpers that deal with setting up development containers, network functions and connectivity to my homelab services
 
+  - [`wmux`](https://dotfiles.gbraad.nl/wmux)  
+    Tmux sessions in your web browser
   - `dotfiles`  
     handles installation and update of my dotfiles
   - `devenv`, `devbox`  
