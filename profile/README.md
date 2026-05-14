@@ -147,6 +147,7 @@ These are container images with the dotfiles and dependencies installed, able to
 
   * `devenv dotfedora env`, `dev dotfedora [system|shell|exec]` for Fedora
   * `devenv dotdebian env`, `dev dotdebian [system|shell|exec]` for Debian
+  * ... `dotopensuse` for OpenSUSE
   * ... `dotalma` for AlmaLinux
   * ... `dotcentos` for CentOS Stream
   * ... `dotubi9` for RHEL UBI9
@@ -388,11 +389,21 @@ out=%dot ps ax
  [![build container - almalinux](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml)  
  [![Build and Push AlmaLinux bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml)
 
+### OpenSUSE
+ [![build container - opensuse](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-opensuse.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-opensuse.yml)  
+ [![Build and Push OpenSUSE diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-opensuse-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-opensuse-machine.yml)
+
+### Debian
+ [![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)  
+ [![Build and Push Debian diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-debian-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-debian-machine.yml)
+
+### Ubuntu
+ [![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)  
+ [![Build and Push Ubuntu diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-ubuntu-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-ubuntu-machine.yml)
+
 ### Others
  [![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)  
- [![build container - Alpine](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml)  
- [![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)  
- [![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)
+ [![build container - Alpine](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml)
 
 
 ---
