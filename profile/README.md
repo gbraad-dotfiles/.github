@@ -378,32 +378,32 @@ out=%dot ps ax
 ## Build status of dotfiles Containers [⚙️](https://github.com/gbraad-dotfiles/upstream/actions) [🛠️](https://app.blacksmith.sh) [🛠️](https://app.warpbuild.com)
 
 ### Fedora
- [![build container - fedora](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml)  
- [![Build and Push Fedora bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-fedora-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-fedora-bootc.yml)
+  - [![build container - fedora](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-fedora.yml)
+  - [![Build and Push Fedora bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-fedora-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-fedora-bootc.yml)
 
 ### CentOS
- [![build container - centos](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml)  
- [![Build and Push CentOS bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-centos-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-centos-bootc.yml)
+  - [![build container - centos](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-centos.yml)
+  - [![Build and Push CentOS bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-centos-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-centos-bootc.yml)
 
 ### AlmaLinux
- [![build container - almalinux](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml)  
- [![Build and Push AlmaLinux bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml)
+  - [![build container - almalinux](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-almalinux.yml)
+  - [![Build and Push AlmaLinux bootc diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-almalinux-bootc.yml)
 
 ### OpenSUSE
- [![build container - opensuse](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-opensuse.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-opensuse.yml)  
- [![Build and Push OpenSUSE diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-opensuse-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-opensuse-machine.yml)
+  - [![build container - opensuse](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-opensuse.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-opensuse.yml)
+- [![Build and Push OpenSUSE diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-opensuse-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-opensuse-machine.yml)
 
 ### Debian
- [![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)  
- [![Build and Push Debian diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-debian-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-debian-machine.yml)
+  - [![build container - debian](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-debian.yml)
+  - [![Build and Push Debian diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-debian-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-debian-machine.yml)
 
 ### Ubuntu
- [![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)  
- [![Build and Push Ubuntu diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-ubuntu-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-ubuntu-machine.yml)
+  - [![build container - ubuntu](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubuntu.yml)  
+  - [![Build and Push Ubuntu diskimage](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-ubuntu-machine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-diskimage-ubuntu-machine.yml)
 
 ### Others
- [![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)  
- [![build container - Alpine](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml)
+  - [![build container - UBI9](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-ubi9.yml)
+  - [![build container - Alpine](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml/badge.svg)](https://github.com/gbraad-dotfiles/upstream/actions/workflows/build-container-alpine.yml)
 
 
 ---
