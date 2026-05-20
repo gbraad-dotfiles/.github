@@ -448,8 +448,8 @@ Runners kindly provided by [Blacksmith](https://docs.blacksmith.sh/introduction/
   * [Developer environment](https://github.com/gbraad-devenv) image
   * Google Cloud Platform [cloud shell](https://console.cloud.google.com)
   * Windows Subsystem for Linux (WSL2); Bash on Ubuntu on Windows (WSL1)
-  * Tested on: CentOS7+, Fedora 21+, and Ubuntu 14.04+
-  * GitPod
+  * Tested on: CentOS/AlmaLinux, Fedora, Ubuntu, OpenSUSE, Alpine, Azure Linux, and more
+  * GitPod, CodeSandBox
   * Cygwin64
   * Termux
   * ...
