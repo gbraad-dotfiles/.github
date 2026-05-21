@@ -7,7 +7,7 @@ These are my dotfiles that I use for all my workstation and developement environ
 
 These dotfiles are based around a few helpers that deal with setting up development containers, network functions and connectivity to my homelab services
 
-  - [`wmux`](https://github.com/gbraad-dotfiles/wmux) and [controller](https://dotfiles.gbraad.nl/wmux)  
+  - [`wmux`](https://github.com/gbraad-dotfiles/wmux) and [public interface](https://dotfiles.gbraad.nl/wmux)  
     Tmux sessions in your web browser
   - [`gstow`](https://github.com/gbraad-dotfiles/gstow)  
     multi-platform version of stow written in Go
