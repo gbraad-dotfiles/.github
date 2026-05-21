@@ -9,10 +9,12 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
   - [`wmux`](https://dotfiles.gbraad.nl/wmux)  
     Tmux sessions in your web browser
+  - [`gstow`](https://dotfiles.gbraad.nl/gstow)  
+    multi-platform version of stow written in Go
   - `dotfiles`  
     handles installation and update of my dotfiles
   - `devenv`, `devbox`  
-    deals with running [instant development environments](https://github.com/gbraad-devenv/) as containers with [Podman](https://podman.io) or [containerd](https://github.com/containerd/containerd)
+    run [instant development environments](https://github.com/gbraad-devenv/) as system containers with [Podman](https://podman.io) or [containerd](https://github.com/containerd/containerd)
   - `dev3s` / `d3s`  
     deployment of instant development environments to a minimal k3s or kubernetes
  (k8s) cluster
