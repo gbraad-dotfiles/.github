@@ -429,21 +429,19 @@ out=%dot ps ax
  [![Notebook tests](https://github.com/gbraad-dotfiles/notebooks/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/notebooks/actions/workflows/build-process.yml)
 
 
-
-
 ---
 
 ## Extended tests
 
 
 ### devenv-action using containerd
- [![Run Fedora using nerdctl with systemd](https://github.com/gbraad-dotfiles/test-containerd/actions/workflows/test.yml/badge.svg)](https://github.com/gbraad-dotfiles/test-containerd/actions/workflows/test.yml)
+ [![Run Fedora using nerdctl](https://github.com/gbraad-dotfiles/test-containerd/actions/workflows/test.yml/badge.svg)](https://github.com/gbraad-dotfiles/test-containerd/actions/workflows/test.yml)
  
 ### machine-action using Lima
  [![Run Fedora using Lima](https://github.com/gbraad-dotfiles/test-lima/actions/workflows/test.yml/badge.svg)](https://github.com/gbraad-dotfiles/test-lima/actions/workflows/test.yml)
 
 ### d3s and system containers targeting k3s
- [![Run Fedora using K3s](https://github.com/gbraad-dotfiles/test-k3s/actions/workflows/test-k3s.yaml/badge.svg)](https://github.com/gbraad-dotfiles/test-k3s/actions/workflows/test-k3s.yaml)
+ [![Run Fedora using K3s](https://github.com/gbraad-dotfiles/test-k3s/actions/workflows/test.yaml/badge.svg)](https://github.com/gbraad-dotfiles/test-k3s/actions/workflows/test.yaml)
 
 ---
 
