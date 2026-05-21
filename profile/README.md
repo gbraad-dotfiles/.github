@@ -434,13 +434,13 @@ out=%dot ps ax
 ## Extended tests
 
 
-### devenv-action using containerd
+### `devenv-action` using [containerd](https://containerd.io/)
  [![Run Fedora using nerdctl](https://github.com/gbraad-dotfiles/test-containerd/actions/workflows/test.yml/badge.svg)](https://github.com/gbraad-dotfiles/test-containerd/actions/workflows/test.yml)
  
-### machine-action using Lima
+### `machine-action` using [Lima](https://lima-vm.io/)
  [![Run Fedora using Lima](https://github.com/gbraad-dotfiles/test-lima/actions/workflows/test.yml/badge.svg)](https://github.com/gbraad-dotfiles/test-lima/actions/workflows/test.yml)
 
-### d3s and system containers targeting k3s
+### `d3s` and system containers targeting [k3s](https://k3s.io/)
  [![Run Fedora using K3s](https://github.com/gbraad-dotfiles/test-k3s/actions/workflows/test.yaml/badge.svg)](https://github.com/gbraad-dotfiles/test-k3s/actions/workflows/test.yaml)
 
 ---
