@@ -13,7 +13,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
     handles installation and update of my dotfiles
   - `devenv`, `devbox`  
     deals with running [instant development environments](https://github.com/gbraad-devenv/) as containers with [Podman](https://podman.io) or [containerd](https://github.com/containerd/containerd)
-  - `dev3s.zsh`  
+  - `dev3s` / `d3s`  
     deployment of instant development environments to a minimal k3s or kubernetes
  (k8s) cluster
   - `machine`  
