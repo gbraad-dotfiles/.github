@@ -62,6 +62,9 @@ A Markdown-based configuration file that describes a set of actions, scripts, or
 
 ### [Machinefile](https://dotfiles.gbraad.nl/machinefile)
 
+[![Machinefile build](https://github.com/gbraad-redhat/machinefile/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-redhat/machinefile/actions/workflows/build-process.yml) [![Machinefile test](https://github.com/gbraad-actions/machinefile-executor-action/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-actions/machinefile-executor-action/actions/workflows/build-process.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/machinefile/machinefile/)
+
+
 A simple executor that allows you to run `Dockerfile`/`Containerfile` commands directly on a local or remote host
 
 ---
