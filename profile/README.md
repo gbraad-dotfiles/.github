@@ -5,6 +5,8 @@ Gerard Braad's dotfiles using `git`, `stow`, and `zsh`
 
 These are my dotfiles that I use for all my workstation and developement environments on a daily basis. I share it because I got frustrated about moving a tarball around (and being scared of losing it). This eventually happened when my notebook got stolen. It is 'very personal' (my way of working), so, this is not an ideal solution for you. Treat it as, "what you see is what it is"...
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/gbraad-dotfiles/upstream)
+
 These dotfiles are based around a few helpers that deal with setting up development containers, network functions and connectivity to my homelab services
 
   - [`wmux`](https://github.com/gbraad-dotfiles/wmux) and [public interface](https://dotfiles.gbraad.nl/wmux)  
