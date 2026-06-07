@@ -473,6 +473,7 @@ Runners kindly provided by [Blacksmith](https://docs.blacksmith.sh/introduction/
   * [Developer environment](https://github.com/gbraad-devenv) image
   * Google Cloud Platform [cloud shell](https://console.cloud.google.com)
   * Windows Subsystem for Linux (WSL2); Bash on Ubuntu on Windows (WSL1)
+  * VMs have been tested on Qemu, HyperV, Lima, vfkit (using macadam) 
   * Tested on: CentOS/AlmaLinux, Fedora, Ubuntu, OpenSUSE, Alpine, Azure Linux, and more
   * GitPod, CodeSandBox
   * Cygwin64
