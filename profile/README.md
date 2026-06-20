@@ -421,14 +421,20 @@ out=%dot ps ax
 ## Other build status
 
 ### FreeBSD
-  [![Build and Push FreeBSD cloud diskimage](https://github.com/gbraad-dotfiles/freebsd/actions/workflows/build.yml/badge.svg)](https://github.com/gbraad-dotfiles/freebsd/actions/workflows/build.yml)
+ [![Build and Push FreeBSD cloud diskimage](https://github.com/gbraad-dotfiles/freebsd/actions/workflows/build.yml/badge.svg)](https://github.com/gbraad-dotfiles/freebsd/actions/workflows/build.yml)
 
 ### Container Registry Cleanup
  [![Container Registry Cleanup](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml/badge.svg)](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml)
 
-### Application defintions
- [![Application installs](https://github.com/gbraad-dotfiles/applications/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/applications/actions/workflows/build-process.yml)
+### Application descriptions (Linux)
+ [![Application installs](https://github.com/gbraad-dotfiles/apps-linux/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/apps-linux/actions/workflows/build-process.yml)
 
+### Application descriptions (macOS)
+ Undefined
+ 
+### Application descriptions (FreeBSD)
+ Undefined
+ 
 ### Actionfiles
  [![Actionfiles tests](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-dotfiles/actionfiles/actions/workflows/build-process.yml)
 
