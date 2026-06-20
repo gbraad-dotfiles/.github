@@ -21,7 +21,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
     deployment of instant development environments to a minimal k3s or kubernetes
  (k8s) cluster
   - `machine`  
-    create VMs using bootc image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others, utilizing [`macadam`](https://github.com/gbraad-dotfiles/macadam/) or `lima` and [`machinefile`](https://github.com/gbraad-redhat/machinefile)
+    create VMs using image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others, utilizing bootc, `lima` or [`macadam`](https://github.com/gbraad-dotfiles/macadam/) and [`machinefile`](https://github.com/machinefile/machinefile)
   - `proxy`  
     sets environment to use a proxy to access services
   - `davfs`  
