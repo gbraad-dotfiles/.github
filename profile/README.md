@@ -420,6 +420,8 @@ out=%dot ps ax
 
 ## Other build status
 
+### FreeBSD
+  [![Build and Push FreeBSD cloud diskimage](https://github.com/gbraad-dotfiles/freebsd/actions/workflows/build.yml/badge.svg)](https://github.com/gbraad-dotfiles/freebsd/actions/workflows/build.yml)
 
 ### Container Registry Cleanup
  [![Container Registry Cleanup](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml/badge.svg)](https://github.com/gbraad-dotfiles/.github/actions/workflows/cleanup.yml)
@@ -474,7 +476,9 @@ Runners kindly provided by [Blacksmith](https://docs.blacksmith.sh/introduction/
   * Google Cloud Platform [cloud shell](https://console.cloud.google.com)
   * Windows Subsystem for Linux (WSL2); Bash on Ubuntu on Windows (WSL1)
   * VMs have been tested on Qemu, HyperV, Lima, vfkit (using macadam) 
-  * Tested on: CentOS/AlmaLinux, Fedora, Ubuntu, OpenSUSE, Alpine, Azure Linux, and more
+  * CentOS/AlmaLinux, Fedora, Ubuntu, OpenSUSE, Alpine, Azure Linux, and more
+  * [FreeBSD](https://github.com/gbraad-dotfiles/freebsd/)
+  * [macOS](https://github.com/gbraad-dotfiles/macos/)
   * GitPod, CodeSandBox
   * Cygwin64
   * Termux
