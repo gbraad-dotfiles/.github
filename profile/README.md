@@ -20,7 +20,7 @@ These dotfiles are based around a few helpers that deal with setting up developm
   - `dev3s` / `d3s`  
     deployment of instant development environments to a minimal k3s or kubernetes
  (k8s) cluster
-  - `machine`  
+  - `machine` and [`ducttape`](https://github.com/ducttape-infra)  
     create VMs using image-based deployments of devenv, [homelab](https://github.com/gbraad-homelab), [apps](https://github.com/gbraad-apps) and others, utilizing `lima` or [`macadam`](https://github.com/gbraad-dotfiles/macadam/) and bootc or [`machinefile`](https://github.com/machinefile/machinefile)
   - `proxy`  
     sets environment to use a proxy to access services
