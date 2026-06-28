@@ -57,13 +57,16 @@ These dotfiles are based around a few helpers that deal with setting up developm
 
 ### [Actionfile](https://dotfiles.gbraad.nl/actionfile)
 
+> [!Note]
+> Now part of [Ducttape infra tools](https://github.com/ducttape-infra).
+
 A Markdown-based configuration file that describes a set of actions, scripts, or tasks for use in automation workflows
 
 
 ### [Machinefile](https://dotfiles.gbraad.nl/machinefile)
 
-[![Machinefile build](https://github.com/gbraad-redhat/machinefile/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-redhat/machinefile/actions/workflows/build-process.yml) [![Machinefile test](https://github.com/gbraad-actions/machinefile-executor-action/actions/workflows/build-process.yml/badge.svg)](https://github.com/gbraad-actions/machinefile-executor-action/actions/workflows/build-process.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/machinefile/machinefile/)
-
+> [!Note]
+> Now part of [Ducttape infra tools](https://github.com/ducttape-infra).
 
 A simple executor that allows you to run `Dockerfile`/`Containerfile` commands directly on a local or remote host
 
